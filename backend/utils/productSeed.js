@@ -23,5 +23,5 @@ const seedProductData = async () =>{
     await   Product.insertMany(productData)
     console.log(productData)
     console.log('Seeded the Product data')
-    mongoose.disconnect();
+    await mongoose.disconnect();
 }

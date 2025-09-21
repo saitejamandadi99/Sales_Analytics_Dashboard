@@ -8,4 +8,4 @@ const OrderSchema = new Schema({
     reportDate:{type:Date, required:true}, 
 }, {timestamps:true});
 
-module.exports = mongoose.model('Order', OrderSchema)
+module.exports = mongoose.model('Sales', OrderSchema)
