@@ -1,7 +1,7 @@
     const {faker} = require('@faker-js/faker')
     const mongoose = require('mongoose')
     require('dotenv').config()
-    const Sales = require('../models/ordersModel')
+    const Sales = require('../models/salesModel')
     const Customer = require('../models/customerModel')
     const Product = require('../models/productModel')
 
