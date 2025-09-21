@@ -20,7 +20,7 @@ const seedProductData = async () =>{
             price:Number(faker.commerce.price())
         })
     }
-    await   Product.insertMany(productData)
+    await   Product.insertMany(productData) 
     console.log(productData)
     console.log('Seeded the Product data')
     await mongoose.disconnect();
