@@ -24,7 +24,7 @@ const seedCustomersData = async () =>{
 
     await Customer.insertMany(customersData); 
     console.log('customer data added')
-    mongoose.disconnect();
+    await mongoose.disconnect();
 }
 
 
